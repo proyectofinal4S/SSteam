@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="UML">
+  <ClassDiagramComponents>
+    <Class name="PlayStation" package="" visibility="public" xPosition="330.0" yPosition="8.0">
+      <Fields>
+        <Field name="CodProducto" type="String" visibility="private"/>
+        <Field name="Precio" type="Float" visibility="private"/>
+        <Field name="Existencias" type="Int" visibility="private"/>
+        <Field name="Modelo" type="Int" visibility="private"/>
+        <Field name="Capacidad" type="Int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="PC" package="" visibility="public" xPosition="613.0" yPosition="19.0">
+      <Fields>
+        <Field name="CodProducto" type="String" visibility="private"/>
+        <Field name="Precio" type="Float" visibility="private"/>
+        <Field name="Existencias" type="Int" visibility="private"/>
+        <Field name="Modelo" type="Int" visibility="private"/>
+        <Field name="Capacidad" type="Int" visibility="private"/>
+        <Field name="Caracteristicas" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Xbox" package="" visibility="public" xPosition="63.0" yPosition="28.0">
+      <Fields>
+        <Field name="CodProducto" type="String" visibility="private"/>
+        <Field name="Precio" type="Float" visibility="private"/>
+        <Field name="Existencias" type="Int" visibility="private"/>
+        <Field name="Modelo" type="Int" visibility="private"/>
+        <Field name="Capacidad" type="Int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Plataforma" package="" visibility="public" xPosition="366.0" yPosition="247.0">
+      <Fields>
+        <Field name="Tipo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Videojuegos" package="" visibility="public" xPosition="75.0" yPosition="290.0">
+      <Fields>
+        <Field name="Nombre" type="String" visibility="private"/>
+        <Field name="FechaIngreso" type="Date" visibility="private"/>
+        <Field name="Edicion" type="Int" visibility="private"/>
+        <Field name="Descuento" type="Float" visibility="private"/>
+        <Field name="Sinopsis" type="String" visibility="private"/>
+        <Field name="Categorias" type="String" visibility="private"/>
+        <Field name="Inventario" type="Int" visibility="private"/>
+        <Field name="Precio" type="Float" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Hardware" package="" visibility="public" xPosition="330.0" yPosition="362.0">
+      <Fields>
+        <Field name="Nombre" type="String" visibility="private"/>
+        <Field name="Modelo" type="String" visibility="private"/>
+        <Field name="Descripcion" type="String" visibility="private"/>
+        <Field name="Inventario" type="Int" visibility="private"/>
+        <Field name="CodigoProducto" type="Int" visibility="private"/>
+        <Field name="Precio" type="Float" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Complemento" package="" visibility="public" xPosition="548.0" yPosition="366.0">
+      <Fields>
+        <Field name="Nombre" type="String" visibility="private"/>
+        <Field name="Modelo" type="String" visibility="private"/>
+        <Field name="Inventario" type="Int" visibility="private"/>
+        <Field name="Descripcion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Digital" package="" visibility="public" xPosition="16.0" yPosition="592.0">
+      <Fields>
+        <Field name="NumPedido" type="Int" visibility="private"/>
+        <Field name="IdProducto" type="Int" visibility="private"/>
+        <Field name="Existencias" type="Int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Fisico" package="" visibility="public" xPosition="187.0" yPosition="592.0">
+      <Fields>
+        <Field name="NumPedido" type="Int" visibility="private"/>
+        <Field name="IdProducto" type="Int" visibility="private"/>
+        <Field name="Existencias" type="Int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Inventario" package="" visibility="public" xPosition="390.0" yPosition="625.0">
+      <Fields>
+        <Field name="CodigoProd" type="Int" visibility="private"/>
+        <Field name="NumExistencias" type="Int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Consola" package="" visibility="public" xPosition="841.0" yPosition="347.0">
+      <Fields>
+        <Field name="Modelo" type="String" visibility="private"/>
+        <Field name="Marca" type="String" visibility="private"/>
+        <Field name="Inventario" type="Int" visibility="private"/>
+        <Field name="Edicion" type="String" visibility="private"/>
+        <Field name="Capacidad" type="Int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Venta" package="" visibility="public" xPosition="268.0" yPosition="812.0">
+      <Fields>
+        <Field name="NoPedido" type="Int" visibility="private"/>
+        <Field name="Direccion" type="String" visibility="private"/>
+        <Field name="Cantidad" type="Int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Envio" package="" visibility="public" xPosition="524.0" yPosition="812.0">
+      <Fields>
+        <Field name="Direccion" type="String" visibility="private"/>
+        <Field name="NoPedido" type="Int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Control" package="" visibility="public" xPosition="771.0" yPosition="863.0">
+      <Fields>
+        <Field name="CodPedido" type="String" visibility="private"/>
+        <Field name="Producto" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Cliente" package="" visibility="public" xPosition="268.0" yPosition="1048.0">
+      <Fields>
+        <Field name="Nombre" type="String" visibility="private"/>
+        <Field name="FechaNac" type="Date" visibility="private"/>
+        <Field name="CorreoElec" type="String" visibility="private"/>
+        <Field name="NumTelefono" type="Int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Direccion" package="" visibility="public" xPosition="303.0" yPosition="1273.0">
+      <Fields>
+        <Field name="Calle" type="String" visibility="private"/>
+        <Field name="CP" type="Int" visibility="private"/>
+        <Field name="Colonia" type="String" visibility="private"/>
+        <Field name="Ciudad" type="String" visibility="private"/>
+        <Field name="Estado" type="String" visibility="private"/>
+        <Field name="Referencia" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="Pertenecen" source="Videojuegos" target="Plataforma" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="Pertenecen" source="Plataforma" target="Consola" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="son" source="Digital" target="Videojuegos" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="Realiza" source="Inventario" target="Venta" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="Pertencen" source="Hardware" target="Plataforma" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="Pertenece" source="PC" target="Plataforma" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Tienen" source="Consola" target="Inventario" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="Tiene" source="Cliente" target="Direccion" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Son" source="Fisico" target="Videojuegos" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="Tienen" source="Complemento" target="Inventario" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="Pertenece" source="Xbox" target="Plataforma" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Tienen" source="Videojuegos" target="Inventario" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="Procede" source="Venta" target="Envio" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="Pertenece" source="Envio" target="Cliente" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Pertencen" source="Complemento" target="Plataforma" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="Tiene" source="Envio" target="Control" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="Realiza" source="Venta" target="Cliente" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="Depende" source="Control" target="Cliente" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Tienen" source="Hardware" target="Inventario" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="Pertenece" source="PlayStation" target="Plataforma" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
